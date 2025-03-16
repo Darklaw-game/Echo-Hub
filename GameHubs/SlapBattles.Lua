@@ -198,3 +198,11 @@ local Window = Rayfield:CreateWindow({
     end,
  })
 
+ local FETab = Window:CreateTab("FE", "person-standing") -- Title, Lucide Icon
+ local Button = FETab:CreateButton({
+    Name = "Mace Farm",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/Ty7G6BXs/raw"))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
